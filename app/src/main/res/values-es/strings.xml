@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DonaDelSabor</string>
+    <string name="text_username">nombre de usuario</string>
+    <string name="text_hint">Usuario</string>
+    <string name="text_password">contraseña</string>
+    <string name="text_welcome">Bienvenida</string>
+    <string name="user">Juliana</string>
+    <string name="text_title">Introducción</string>
+    <string name="text_introduction">Android Studio te ayudará a desarrollar tu app más productivamente a escala.         Android Studio ofrece las herramientas más rápidas para crear apps de Android.         Codifica con seguridad. Compila sin límites. Crea experiencias. Optimiza el proceso. Crea el mejor código.</string>
+    <string name="text_content">Some things just don’t go the way you want. Like the page you’re looking for is gone.         Or the link is broken. Check the URL and try reloading the page.         Or go back to Android.com to find other good stuff.</string>
+    <string name="messagepassword">contraseña errada</string>
+    <string name="message_user">Usuario invalido</string>
+    <string name="home">Inicio</string>
+    <string name="sancocho">Delicioso y nutritivo Sancocho de Pescado. Preparado con bagre fresco, tubérculos, vegetales y un buen guiso para darle aún más sabor,</string>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DonaDelSabor</string>
+
+    <string name="text_username">Doña del sabor</string>
+    <string name="text_hint">User</string>
+    <string name="text_password">password</string>
+    <string name="text_welcome">Welcome</string>
+    <string name="user">Doña del Sabor</string>
+    <string name="text_title">Introduction</string>
+    <string name="text_introduction">Bienvenidos a la Doña del Sabor; donde le llevamos la costa colombiana a su casa.
+    Lo invitamos a disfrutar de nuestros platos; hechos con productos frescos y la sazón de nuestros chef</string>
+    <string name="text_content">Contamos con atención a domicilio. Estamos ubicados en el malecón de Santa Marta</string>
+    <string name="messagepassword">Invalid Password</string>
+    <string name="message_user">Invalid user</string>
+    <string name="home">Inicio - La Doña del Sabor</string>
+    <string name ="sancocho">Delicioso y nutritivo Sancocho de Pescado. Preparado con bagre fresco, tubérculos,
+        vegetales y un buen guiso para darle aún más sabor. Bebida y postre incluidos</string>
+
+
+</resources>
