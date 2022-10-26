@@ -19,7 +19,7 @@
         android:orientation="horizontal">
 
     <TextView
-
+        android:id="@+id/tvSancocho"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="3"
@@ -34,9 +34,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text=">"
             android:backgroundTint="@color/teal_200"
-            />
+            android:text=">" />
     </LinearLayout>
 
     <LinearLayout
@@ -49,6 +48,7 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/tvBocachico"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="3"
@@ -78,6 +78,7 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/tvChicharron"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="3"
@@ -106,6 +107,7 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/tvCazuela"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="3"
@@ -135,6 +137,7 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/tvCayeye"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="3"
@@ -153,6 +156,7 @@
             android:backgroundTint="@color/teal_200"
             />
     </LinearLayout>
+
 
 
 

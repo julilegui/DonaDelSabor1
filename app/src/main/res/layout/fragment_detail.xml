@@ -9,6 +9,8 @@
     tools:context="DetailFragment">
 
     <ImageView
+
+        android:id="@+id/imgSancocho"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/sancochodepescado" />
@@ -36,5 +38,42 @@
         android:layout_marginTop="10dp"
         android:text="$20000"
         android:textSize="20sp" />
+
+    <ImageView
+
+        android:id="@+id/imgBocachico"
+        android:layout_width="77dp"
+        android:layout_height="128dp"
+        android:src="@drawable/bocachico" />
+
+    <TextView
+        android:id="@+id/tvBocachico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Bocachico"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvMenuBocachico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/sancocho"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvPrecioBocachico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="$20000"
+        android:textSize="20sp" />
+
+
+
+
+
+
 
 </LinearLayout>

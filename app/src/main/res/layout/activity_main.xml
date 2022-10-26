@@ -88,5 +88,13 @@
             android:text="Login"
             android:layout_margin="20sp"/>
 
+        <Button
+            android:id="@+id/btnRegistro"
+            android:onClick="onLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:layout_margin="20sp"/>
+
     </LinearLayout>
 </LinearLayout>

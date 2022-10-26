@@ -10,17 +10,10 @@ class ToDoActivity : AppCompatActivity() {
 
         if (savedInstanceState==null) {
 
-            val fragmentManager = supportFragmentManager
-            val fragmentTransaction = fragmentManager.beginTransaction()
-
-            val fragment = ToDoFragment()
-            fragmentTransaction.add(R.id.fcv, fragment)
-            fragmentTransaction.commit()
-
-
-          //  supportFragmentManager.beginTransaction().setReorderingAllowed(true).add(R.id.fcv,ToDoFragment::class.java,null,"todo").commit()
-
-
+                supportFragmentManager.beginTransaction()
+                    .setReorderingAllowed(true)
+                    .add(R.id.fcv, ToDoFragment::class.java, null, "ToDoFragment")
+                    .commit()
         }
 
     }

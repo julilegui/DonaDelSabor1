@@ -24,13 +24,11 @@
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             />
 
-        <!--<androidx.fragment.app.FragmentContainerView no puedo agregar esta libreria-->
-       <fragment
-            android:id="@+id/fcv"
+
+        <androidx.fragment.app.FragmentContainerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
-
+            android:id="@+id/fcv"/>
 
 
     </LinearLayout>
@@ -43,6 +41,7 @@
         android:layout_margin="16dp"
         android:src="@drawable/ic_launcher_foreground"
         android:tint="@color/black"/>
+
 
 
 
