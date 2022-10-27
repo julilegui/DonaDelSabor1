@@ -1,11 +1,14 @@
 package com.example.donadelsabor
 
+import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+
 
 class DetailFragment:Fragment() {
 
@@ -23,25 +26,29 @@ class DetailFragment:Fragment() {
 
         val fragmento = inflater.inflate(R.layout.fragment_detail, container,false)
 
-        //Textos de Sancocho
+        //Menus
+        //Sacar los dato de forma dinamica
+        //var imagen = requireArguments().getString("Imagen")
         var titulo =requireArguments().getString("Titulo")
         var plato =requireArguments().getString("Plato")
         var precio =requireArguments().getString("Precio")
 
 
         //Textos de Bocachico
-        var TituloBocachico =requireArguments().getString("TituloBocahcico")
-        var PlatoBocachico =requireArguments().getString("PlatoBocachico")
-        var PrecioBocachico =requireArguments().getString("PrecioBocachico")
+        //var TituloBocachico =requireArguments().getString("TituloBocahcico")
+        //var PlatoBocachico =requireArguments().getString("PlatoBocachico")
+        //var PrecioBocachico =requireArguments().getString("PrecioBocachico")
         //var cayeye =requireArguments().getString("cayeye")
 
-        var tvTitulo: TextView = fragmento.findViewById(R.id.tvSancocho)
-        var tvPlato: TextView = fragmento.findViewById(R.id.tvMenuSancocho)
-        var tvPrecio: TextView = fragmento.findViewById(R.id.tvPrecioSancocho)
+        //De donde se sacan los datos
+        //var imgPlato: ImageView = fragmento.findViewById(R.id.imgPlato)
+        var tvTitulo: TextView = fragmento.findViewById(R.id.tvTitulo)
+        var tvPlato: TextView = fragmento.findViewById(R.id.tvPlato)
+        var tvPrecio: TextView = fragmento.findViewById(R.id.tvPrecio)
 
-        var tvTituloBocachico: TextView = fragmento.findViewById(R.id.tvBocachico)
-        var tvPlatoBocachico: TextView = fragmento.findViewById(R.id.tvMenuBocachico)
-        var tvPrecioBocachico: TextView = fragmento.findViewById(R.id.tvPrecioBocachico)
+       // var tvTituloBocachico: TextView = fragmento.findViewById(R.id.tvBocachico)
+       // var tvPlatoBocachico: TextView = fragmento.findViewById(R.id.tvMenuBocachico)
+        //var tvPrecioBocachico: TextView = fragmento.findViewById(R.id.tvPrecioBocachico)
 
 
         //var tvBocachico: TextView = fragmento.findViewById(R.id.tvBocachico)
@@ -49,13 +56,16 @@ class DetailFragment:Fragment() {
         //var tvCazuela: TextView = fragmento.findViewById(R.id.tvCazuela)
         //var tvCayeye: TextView = fragmento.findViewById(R.id.tvCayeye)
 
+        //De donde se envia la informacion
+
+        //imgPlato.setImageResource(getResources().getIdentifier(imagen, "drawable", getPackage.name))
         tvTitulo.text = titulo
         tvPlato.text = plato
         tvPrecio.text = precio
 
-        tvTituloBocachico.text = TituloBocachico
-        tvPlatoBocachico.text = PlatoBocachico
-        tvPrecioBocachico.text = PrecioBocachico
+        //tvTituloBocachico.text = TituloBocachico
+        //tvPlatoBocachico.text = PlatoBocachico
+        //tvPrecioBocachico.text = PrecioBocachico
 
 
 

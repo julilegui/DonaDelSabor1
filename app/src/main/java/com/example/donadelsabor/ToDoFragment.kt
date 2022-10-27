@@ -36,7 +36,7 @@ class ToDoFragment : Fragment() {
             datos.putString("Titulo","Sancocho de pescado")
             datos.putString("Plato","Sopa con bagre y arroz")
             datos.putString("Precio","$20000")
-
+            datos.putString("Imagen","@drawable/sancochodepescado.jpg")
 
 
             activity
@@ -50,9 +50,9 @@ class ToDoFragment : Fragment() {
         btnBocachico.setOnClickListener (View.OnClickListener {
 
             val datos=Bundle()
-            datos.putString("TituloBocachico","Viuda de bocachico")
-            datos.putString("PlatoBocachico","Bocachico con yuca, mazorca, arracacha y arroz")
-            datos.putString("PrecioBocachico","$20000")
+            datos.putString("Titulo","Viuda de bocachico")
+            datos.putString("Plato","Bocachico con yuca, mazorca, arracacha y arroz")
+            datos.putString("Precio","$25000")
 
 
 
