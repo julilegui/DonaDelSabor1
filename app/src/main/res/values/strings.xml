@@ -13,8 +13,8 @@
     <string name="messagepassword">Invalid Password</string>
     <string name="message_user">Invalid user</string>
     <string name="home">Inicio - La Doña del Sabor</string>
-    <string name ="sancocho">Delicioso y nutritivo Sancocho de Pescado. Preparado con bagre fresco, tubérculos,
+    <string name="sancocho">Delicioso y nutritivo Sancocho de Pescado. Preparado con bagre fresco, tubérculos,
         vegetales y un buen guiso para darle aún más sabor. Bebida y postre incluidos</string>
-    <string name ="bocachico">recibe este nombre gracias al por su cercania al Rio magdalena, este pescado se sala,se pone al sol, se agrega a su preparacion platano, yuca, mazorca, arracacha.          Este plato se puede acompañar con arroz si lo prefieres.</string>
+    <string name="bocachico">recibe este nombre gracias al por su cercania al Rio magdalena, este pescado se sala,se pone al sol, se agrega a su preparacion platano, yuca, mazorca, arracacha.          Este plato se puede acompañar con arroz si lo prefieres.</string>
 
 </resources>
