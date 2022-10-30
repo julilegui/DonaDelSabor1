@@ -20,7 +20,15 @@ class RegisterActivity : AppCompatActivity() {
         "[a-zA-Z]*"
 
     )
+    // Patron que debe tener una contraseña
+    private val password_Pattern: Pattern= Pattern.compile(
 
+        "^"+
+                "(?=.*[0-9])"+
+                "(?=.*[a-z])"+
+                ".{8,}"+
+                "$"
+    )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
@@ -49,7 +57,7 @@ class RegisterActivity : AppCompatActivity() {
     private fun ValidateForm():Boolean{
         var validate = true
         val nameInput=edName!!.text.toString()
-        val paswwordInput= edPassword!!.text.toString()
+        val passwordInput= edPassword!!.text.toString()
         val emailInput= edEmail!!.text.toString()
 
         //Validacion checbox
@@ -59,7 +67,8 @@ class RegisterActivity : AppCompatActivity() {
         }
 
         //Validacion del nombre
-        if(TextUtils.isEmpty(edName!!.text.toString())){
+        if(TextUtils.isEmpty(edName!!.text.toString()))
+        {
             edName!!.error="Requerido"
             validate=false
         }
@@ -74,6 +83,15 @@ class RegisterActivity : AppCompatActivity() {
 
         //Validacion del apellido (copiar de la linea 62 a la 72
 
+
+        if(TextUtils.isEmpty(edPassword!!.text.toString())){
+            edPassword!!.error="Requerido"
+            validate=false
+        } else if (!password_Pattern.matcher(passwordInput).matches())
+        {
+            edPassword!!.error="no cumple con las politicas"
+
+        } else edPassword!!.error=null
 
         return validate
     }
