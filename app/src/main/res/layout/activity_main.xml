@@ -6,14 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#A3D0D4"
+    >
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        app:titleTextColor="@color/black"
-        android:background="@color/teal_200"
+        app:titleTextColor="@color/white"
+        android:background="#004753"
         android:elevation="4dp"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
@@ -28,8 +30,8 @@
 
         <ImageView
             android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/costa"/>
+            android:layout_height="84dp"
+            android:src="@drawable/logo_dona_del_sabor" />
 
     </LinearLayout>
 
@@ -73,7 +75,6 @@
                 android:id="@+id/edtPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:hint="@string/text_password"
                 android:inputType="textPassword" />
 
@@ -86,15 +87,18 @@
             android:layout_height="wrap_content"
             android:layout_margin="20sp"
             android:onClick="onLogin"
-            android:text="Login" />
+            android:text="Login"
+            android:backgroundTint="#004753"
+            />
 
         <Button
             android:id="@+id/btnRegistro"
-            android:onClick="onRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registrarse"
-            android:layout_margin="20sp"/>
+            android:layout_margin="20sp"
+            android:backgroundTint="#004753"
+            android:onClick="onRegister"
+            android:text="Registrarse" />
 
     </LinearLayout>
 </LinearLayout>
